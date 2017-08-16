@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+<display-name>SearchAds</display-name>
+<welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+</welcome-file-list>
+
+<context-param>
+<param-name>uiTemplateFilePath</param-name>
+<param-value>/Users/qingxuan/Documents/CS504/M3-Capstone/ui.html</param-value>
+</context-param>
+
+<context-param>
+<param-name>adTemplateFilePath</param-name>
+<param-value>/Users/qingxuan/Documents/CS504/M3-Capstone/item.html</param-value>
+</context-param>
+
+<context-param>
+<param-name>mysqlHost</param-name>
+<param-value>127.0.0.1:3306</param-value>
+</context-param>
+
+<context-param>
+<param-name>mysqlDB</param-name>
+<param-value>PriceDetection</param-value>
+</context-param>
+
+<context-param>
+<param-name>mysqlUser</param-name>
+<param-value>root</param-value>
+</context-param>
+
+<context-param>
+<param-name>mysqlPass</param-name>
+<param-value>password</param-value>
+</context-param>
+
+<servlet>
+    <servlet-name>SearchDealApi</servlet-name>
+    <servlet-class>io.qingxuan.SearchDealApi</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>SearchDealApi</servlet-name>
+    <url-pattern>/SearchDeal</url-pattern>
+</servlet-mapping>
+
+</web-app>

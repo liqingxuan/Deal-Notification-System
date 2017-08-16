@@ -1,0 +1,23 @@
+category:Electronics
+camera
+Home audio
+Home theater system
+
+category:Kids
+Toys
+Kids games
+Baby
+
+category:Beauty
+Luxury beauty
+Professional skin care
+Salon & spa
+
+category:Home
+Kitchen
+Dining
+Furniture
+
+category:Outdoors
+Fitness
+Hunting
